@@ -1,0 +1,8 @@
+# day 50 read readlines and other methods
+
+f = open("myfile.txt", "r")
+while True:
+    line = f.readline()
+    if not line:
+        break
+    print(line)
